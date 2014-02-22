@@ -1,11 +1,12 @@
 <h1>Events</h1>
 
-<p>Displaying <%= @num_events %> events in <%= @num_ranks %> ranks</p>
+<p>Displaying <%= @selected_events.size %> events of <%= @ranked_events.size %> total using threshold <%= @threshold %></p>
 
-<% @ranked_events.each_pair do |rank, events| %>
+<%= render partial: "event", collection: @selected_events %>
 
-<h2>Rank: <%= rank %></h2>
+<% if @selected_events.size < @ranked_events.size %>
 
-<%= render partial: "event", collection: events %>
-
+<p><%= (@ranked_events.size - @selected_events.size) %> events below current threshold of <%= @threshold %>
+  <%= link_to("See all events", calaview_path(:threshold => -9999999)) %></p>
 <% end %>
+

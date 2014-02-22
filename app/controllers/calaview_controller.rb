@@ -1,12 +1,11 @@
 class CalaviewController < ApplicationController
   def index
+    @threshold = params["threshold"].to_i || 1
 
     cal = CalagatorEvents.new
     @ranked_events = cal.ranked_events({})
-    @num_events=0
-    @ranked_events.each_value { |sublist| @num_events+=sublist.size }
-    @num_ranks = @ranked_events.size
+    @selected_events = @ranked_events.select {|e| e['weighted_rank'] >= @threshold }
 
-    Rails.logger.info "** Found #{@num_events} events in #{@num_ranks} ranks"
+    Rails.logger.info "** Found #{@ranked_events.size} events, selected #{@selected_events.size}"
   end
 end

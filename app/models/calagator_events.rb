@@ -12,23 +12,14 @@ class CalagatorEvents
 
   def ranked_events(weighting_hash)
     @events = events#[0..10]
-    r_events = {}
 
     @events.each do |event|
       rank, why = event_rank(event, weighting_hash)
-
-      if r_events[rank].nil?
-        puts "initializing array for #{rank}"
-        r_events[rank]=[]
-      end
-
       event["why_rank"] = why if why.present?
-
-      puts "rank #{rank} size: #{r_events[rank].size}"
-      r_events[rank] << event
+      event["weighted_rank"] = rank
     end
-    puts "size of r_events: #{r_events.size}"
-    r_events
+
+    @events.sort! { |a, b| b["weighted_rank"]<=>a["weighted_rank"] }
   end
 
   def rank_from_weight (weight)

@@ -1,4 +1,4 @@
-<div class="event_title"><a href="<%=event_url(event['id'])%>"><%= event['title'] %></a></div>
+<div class="event_title"><a href="<%=event_url(event['id'])%>"><%= event['title'] %></a> (Ranked: <%= event['weighted_rank']%>)</div>
 <div class="event_when_where">
   <div class="event_when"><%= format_when(event) %></div>
   <div class="event_where"><%= format_where(event['venue'])%> </div>

@@ -11,28 +11,20 @@ class CalagatorEvents
   end
 
   def ranked_events(weighting_hash)
-    @events = events[0..10]
+    @events = events#[0..10]
     r_events = {}
 
     @events.each do |event|
       rank = event_rank(event, weighting_hash)
-
-      puts rank
-      puts r_events[rank].present?
 
       if r_events[rank].nil?
         puts "initializing array for #{rank}"
         r_events[rank]=[]
       end
 
-      puts "rank class and size:"
-      puts r_events[rank].class
-      puts r_events[rank].size
-
+      puts "rank #{rank} size: #{r_events[rank].size}"
       r_events[rank] << event
-
     end
-
     puts "size of r_events: #{r_events.size}"
     r_events
   end

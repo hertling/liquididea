@@ -1,0 +1,11 @@
+<h1>Events</h1>
+
+<p>Displaying <%= @num_events %> events in <%= @num_priorities %> priorities</p>
+
+<% @ranked_events.each_pair do |rank, events| %>
+
+<h2>Rank: <%= rank %></h2>
+
+<%= render partial: "event", collection: events %>
+
+<% end %>

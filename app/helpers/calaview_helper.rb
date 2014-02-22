@@ -27,4 +27,12 @@ module CalaviewHelper
       ""
     end
   end
+
+  def format_why(why)
+    if why.present?
+      "why: #{why}"
+    else
+      ""
+    end
+  end
 end

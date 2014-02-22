@@ -4,10 +4,13 @@
     <list default="true" id="2ff6c26f-85db-4c92-91ff-623beaa8425e" name="Default" comment="" />
     <ignored path="liquididea.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/calagator_events.rb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393095507190" ignored="false" />
+    <file path="/calagator_events.rb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393100276430" ignored="false" />
     <file path="/calaview_controller.rb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393095705309" ignored="false" />
     <file path="/index.html.erb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393095730230" ignored="false" />
     <file path="/.gitignore" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393095778736" ignored="false" />
+    <file path="/_event.html.erb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393100554599" ignored="false" />
+    <file path="/calaview_helper.rb" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393100589119" ignored="false" />
+    <file path="/calaview.css.scss" changelist="2ff6c26f-85db-4c92-91ff-623beaa8425e" time="1393100656324" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +42,16 @@
       <file leaf-file-name="calagator_events.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/calagator_events.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="_event.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/calaview/_event.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="8" selection-start="475" selection-end="475" vertical-scroll-proportion="0.50706434">
+            <state line="4" column="67" selection-start="320" selection-end="320" vertical-scroll-proportion="-2.7142856">
               <folding />
             </state>
           </provider>
@@ -63,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calaview.css.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="calaview.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calaview.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="23" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5323077">
               <folding />
             </state>
           </provider>
@@ -75,7 +78,7 @@
       <file leaf-file-name="calaview_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/calaview_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="7" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+            <state line="10" column="7" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,13 +98,13 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/calaview/_event.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/calaview.css.scss" />
-        <option value="$PROJECT_DIR$/app/helpers/calaview_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/calagator_events.rb" />
         <option value="$PROJECT_DIR$/app/controllers/calaview_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/calaview/index.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/models/calagator_events.rb" />
+        <option value="$PROJECT_DIR$/app/views/calaview/_event.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/calaview_helper.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/calaview.css.scss" />
       </list>
     </option>
   </component>
@@ -763,21 +766,9 @@
         <state line="8" column="5" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/calaview/_event.html.erb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.13824885" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calaview.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/calaview_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="7" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -789,6 +780,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/calagator_events.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/calaview/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="9" selection-start="228" selection-end="228" vertical-scroll-proportion="-6.785714">
@@ -796,16 +794,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/calagator_events.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/calaview/_event.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+        <state line="4" column="67" selection-start="320" selection-end="320" vertical-scroll-proportion="-2.7142856">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/helpers/calaview_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="475" selection-end="475" vertical-scroll-proportion="0.50706434">
+        <state line="10" column="7" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/calaview.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="24" selection-start="562" selection-end="562" vertical-scroll-proportion="0.5323077">
           <folding />
         </state>
       </provider>

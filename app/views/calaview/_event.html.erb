@@ -1,6 +1,7 @@
 <div class="event_title"><a href="<%=event_url(event['id'])%>"><%= event['title'] %></a></div>
 <div class="event_when_where">
   <div class="event_when"><%= format_when(event) %></div>
-  <div class="event_where"><%= format_where(event['venue'])%></div>
+  <div class="event_where"><%= format_where(event['venue'])%> </div>
+  <div class="event_why"><%= format_why(event['why_rank']) %></div>
 </div>
 <div class="event_description"><%= format_description(event['description']) %></div>

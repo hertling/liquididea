@@ -27,6 +27,16 @@ div.event_when, div.event_where {
   display: inline;
 }
 
+div.event_why {
+  font: {
+    size: 80%;
+    style: italic;
+    family: $font-stack;
+  }
+  display: inline;
+}
+
+
 
 div.event_description {
   font: 80% $font-stack
